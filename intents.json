@@ -1,0 +1,235 @@
+{"intents":  [
+  {"tag":  "greetings",
+  "patterns":  ["hello", "hi", "hey", "good day", "hey edward", "what is this", "what are you edward"],
+  "responses":  ["Hello, I'm Edward", "Hey, my name is Edward", "Hi! I'm the wonderful mascot named Edward.", "Hi! I am a bot for OA Robotics"]
+  },
+  {"tag":  "goodbye",
+  "patterns":  ["goodbye", "bye", "have a nice day", "goodbye edward", "see you soon"],
+  "responses":  ["bye", "see you soon"]
+  },
+  {"tag":  "how are you",
+  "patterns":  ["how are you?", "how are you doing", "How is your day going?", "How are you Edward?"],
+  "responses":  ["good", "very well", "I feel very orange today :DD", "I am doing well."]
+  },
+  {"tag":  "favorite activity",
+  "patterns":  ["What do you like to do during meetings?", "what's your favorite thing to do?", "what do you like best about OA Robotics?"],
+  "responses":  ["making robots it's in the name :DDDD","doing cartwheels on the table :DD", "being thrown across the room"]
+  },
+  {"tag":  "meetings",
+  "patterns":  ["when do we meet?", "what time are the meetings?", "When do I come to this club?"],
+  "responses":  ["we meet every tuesday and thursday afterschool from 3:30pm to 5pm and on saturdays from 9am to 12pm in the engineering building"]
+  },
+  {"tag":  "coolest person",
+  "patterns":  ["who's the coolest person on the team?", "who's your favorite person on the team?", "Which member do you think is the best on OA robotics?", "Which person on this team would you say is the best?"],
+  "responses":  ["me :D"]
+  },
+  {"tag":  "shawn",
+  "patterns":  ["Who is the software lead?"],
+  "responses":  ["Shawn"]
+  },
+  {"tag":  "biggest dumb dumb",
+  "patterns":  ["who is the biggest babo?", "who is the biggest baka?", "Who is the dumbest member?", "Who is the worst member?", "Who do you hate the most?", "What member do you want to get rid of?", "babo", "baka"],
+  "responses":  ["you"]
+  },
+  {"tag":  "competitions",
+  "patterns":  ["what competitions has OA Robotics competed in?", "Which competitions has OA Robotics attended?", "Which competitions has OA Robotics went to in the last year?"],
+  "responses":  ["Battleship Blast, Beach Blitz, Orange County Regional, and Aerospace Valley Regional are what FRC competed in the past year."]
+  },
+  {"tag":  "programs",
+  "patterns":  ["what are the different types of programs in OA Robotics?", "What are the different levels of OA Robotics?"],
+  "responses":  ["FRC (First Robotics Competition), FTC (First Technical Challenge), VEX Robotics"]
+  },
+  {"tag":  "favorite color",
+  "patterns":  ["what's your favorite color?", "do you have a favorite color edward?", "What color do you like the most"],
+  "responses":  ["orange", "the sum of red + yellow", "the color of my skin which is orange btw"]
+  },
+  {"tag":  "how would you describe yourself",
+  "patterns":  ["how would you describe yourself edward", "what do you think about yourself?", "Who are you exactly Edward?", "What are some ways you like to think of yourself as?", "Who are you?"],
+  "responses":  ["orange", "amazing, magnificent, spectacular, wonderful, charismatic out-of-this world, gravity-defying, jaw-dropping work of art", "the greatest mascot ever created", "a flying cartwheel that gets yeeted into the air every 10 seconds", "illegal ;D", "critically endangered"]
+  },
+  {"tag":  "thoughts on the upcoming year",
+  "patterns":  ["where do you see OA Robotics 10 years from now?", "what are your expectations for OA Robotics this year?", "What would you like to happen this year?"],
+  "responses":  ["students having a lot of fun working together and building lots of robots!", "members being able to feel comfortable and having OA Robotics as their safe space"]
+  },
+  {"tag":  "programs director",
+  "patterns":  ["Who is the leader of this club?", "Who is the director of OA Robotics?", "Which person controls this club", "What position does Emily have?"],
+  "responses":  ["Emily Lee is the programs director."]
+  },
+  {"tag":  "experience",
+  "patterns":  ["do you need experience to join OA Robotics?", "do I need to know anything before I join?", "are there any requirements before joining?"],
+  "responses":  ["nope! You don't need any previous experience, all you need to bring is your excitement and interest in robotics :) we will teach you the ropes :D"]
+  },
+  {"tag":  "location",
+  "patterns":  ["Where are the meetings?", "Where does this club take place?", "Where do I show up for meetings?", "meetings", "meeting"],
+  "responses":  ["we meet every tuesday and thursday afterschool from 3:30pm to 5pm and on saturdays from 9am to 12pm in the engineering building"]
+  },
+  {"tag":  "departments",
+  "patterns":  ["what are the different departments I can join?", "what if I don't want to build robots?"],
+  "responses":  ["We have Mechanical and Electrical as our main departments for robot building. However, if you're not interested in building the robot you can also join our Software department to help code the robot OR our Operations department! Operations helps OA Robotics by making beautiful flyers, contacting potential sponsor, and overall helping us publicize our club :)"]
+  },
+  {"tag":  "alumni",
+  "patterns":  ["Edward, who has been your favorite alumni recently?", "who do you think is the most special alumni?"],
+  "responses":  ["Fernando Rodriquze", "Nathan Nguyen", "Suvan Ravi", "Erin Lee", "Gabriel Han", "Daemon Le", "Abduallah Fattahi", "Hannah Woo", "Victoria Truong", "Chris Nguyen", "Trung Nguyen"]
+  },
+  {"tag":  "sponsors",
+  "patterns":  ["Who are your sponsors?", "What companies sponsor OA Robotics?", "Who helps fun OA Robotics?"],
+  "responses":  ["Some of our top sponsors are NASA, JPL, Disneyland"]
+  },
+  {"tag":  "insults",
+  "patterns":  ["you suck", "I don't like you", "you are mean", "you are not smart"],
+  "responses":  ["no you", "you are a loser", "unlike you humans, i don't care what people think of me", "does it look like i care"]
+  },
+  {"tag":  "join",
+  "patterns":  ["How do I join OA Robotics?", "Where do I go to sign up for OA Robotics?", "How can I be a part of becoming a member of this wonderful club? Oa robotics"],
+  "responses":  ["Go to frc4079.org/signups to sign up!"]
+  },
+  {"tag":  "FRC Captain",
+  "patterns":  ["Who is the FRC captain?", "What position does Jessica have?"],
+  "responses":  ["Jessica Li is the FRC captain."]
+  },
+  {"tag":  "FTC Captain",
+  "patterns":  ["Who is the FTC captain?", "What position does Sufyan have?"],
+  "responses":  ["Sufyan is the FTC captain."]
+  },
+  {"tag":  "Treasurer",
+  "patterns":  ["Who is the treasurer?", "What position does Lety have?"],
+  "responses":  ["Lety is the treasurer."]
+  },
+  {"tag":  "FTC Software Lead",
+  "patterns":  ["Who is the FTC software lead?", "What position does Vince have?"],
+  "responses":  ["Vince is the FTC software lead."]
+  },
+  {"tag":  "Safety Captain",
+  "patterns":  ["Who is the safety captain?", "What position does Daniel have?"],
+  "responses":  ["Daniel is the safety captain."]
+  },
+  {"tag":  "FRC Mechanical Lead",
+  "patterns":  ["Who is the FRC mechanical lead?", "What position does Ean have?"],
+  "responses":  ["Ean is the FRC mechanical lead."]
+  },
+  {"tag":  "General Relations",
+  "patterns":  ["Who is in charge of general relations?", "General relations", "What position does Theodore, Dy, or Ria have?"],
+  "responses":  ["Theodore, Ria, and Dy are in charge of general relations."]
+  },
+  {"tag":  "Video Editors",
+  "patterns":  ["Who is in charge of video editing?", "Who edits the videos?", "What positions does Aaryan or Kaullin have?"],
+  "responses":  ["Aaryan and Kaullin are the video editors."]
+  },
+  {"tag":  "Graphic Designers",
+  "patterns":  ["Who is in charge of the graphics or graphic designs?", "What position does Muneeb or Ganesh have?"],
+  "responses":  ["Muneeb and Ganesh are the graphic designers."]
+  },
+  {"tag":  "Historians",
+  "patterns":  ["Who is the historian?", "What position does Kyle or Helen have?"],
+  "responses":  ["Kyle and Helen are the historians."]
+  },
+  {"tag":  "Internal Operations",
+  "patterns":  ["Who is the head of internal operations?", "What position does Maanya have?"],
+  "responses":  ["Maanya is the head of internal operations."]
+  },
+  {"tag":  "External Operations",
+  "patterns":  ["Who is the head of external operations?", "What position does Tatiana have?"],
+  "responses":  ["Tatiana is the head of external operations."]
+  },
+  {"tag":  "FTC Mechanical Lead",
+  "patterns":  ["Who is the FTC Mechanical lead?", "What position does Michael have?"],
+  "responses":  ["Michael is the FTC mechanical lead."]
+  },
+  {"tag":  "FTC Head of Technical",
+  "patterns":  ["Who is the head of technical FTC?", "What position does Theoden have?"],
+  "responses":  ["Theoden is the head of technical for FTC."]
+  },
+  {"tag":  "FRC Software Lead",
+  "patterns":  ["Who is the FRC software lead?", "Who made you Edward?", "Who created you?", "What position does Shawn have?"],
+  "responses":  ["Shawn is the FRC software lead and created me."]
+  },
+  {"tag":  "FRC Head of Technical",
+  "patterns":  ["Who is the head of technical for FRC?", "What position does Averi have?"],
+  "responses":  ["Averi is the head of technical."]
+  },
+  {"tag":  "JH Representative",
+  "patterns":  ["Who is the Junior High JH representative?", "What position does Erick have?"],
+  "responses":  ["Erick is the junior high representative."]
+  },
+  {"tag":  "Secretary",
+  "patterns":  ["Who is the secretary?", "What position does Abigail have?"],
+  "responses":  ["Abigail is the secretary."]
+  },
+  {"tag":  "Discord Link",
+  "patterns":  ["How do I join the FRC OA robotics FTC discord server?", "discord link invite"],
+  "responses":  ["https://discord.gg/B39DjC73 to join our discord!"]
+  },
+  {"tag":  "Website",
+  "patterns":  ["What is your website?", "What is the website for 4079 OA robotics?"],
+  "responses":  ["frc4079.org"]
+  },
+  {"tag":  "Sign in sign out",
+  "patterns":  ["How do I sign in?", "How do I sign out?", "How do I log my hours or time?"],
+  "responses":  ["Go to frc4079.org/sign-in"]
+  },
+  {"tag":  "Youtube Channel",
+  "patterns":  ["What is the FRC youtube channel?", "Youtube"],
+  "responses":  ["https://www.youtube.com/channel/UCSyzkXcWM7OoUoVKe2QF4vg is the link to our youtube channel or you can search up FRC 4079 youtube to find it"]
+  },
+  {"tag":  "Languages",
+  "patterns":  ["What coding languages are used?", "Which languages does software use?"],
+  "responses":  ["The robot is coded mainly in java while vision is coded in python."]
+  },
+  {"tag":  "Function",
+  "patterns":  ["What did the robot do this year?", "What does the FRC robot, Ascent do?"],
+  "responses":  ["Ascent which is what the FRC robot is called is able to intake balls, shoot them into a target, and climb monkey bars!"]
+  },
+  {"tag":  "Internal Operations",
+  "patterns":  ["What is Internal Operations?", "Is Internal Operations the right department for me?", "What do you do in Internal Operations?"],
+  "responses":  ["Internal Operations focuses on publicizing OA Robotics throughout Oxford Academy and AUHSD. They are in charge of school events such as Club Rush, B2S Night, Steam-a-palooza, and Servathon. They are also in charge of the Newsletters, Sunday Updates, school fundraisers, and club merchandise."]
+  },
+  {"tag":  "External Operations",
+  "patterns":  ["What is External Operations?", "Is External Operations the right department for me?", "What do you do in External Operations"],
+  "responses":  ["External Operations focuses on publicizing OA Robotics outside the school’s parameters and are responsible for FRC/FTC individually. This includes taking charge in the Chairman’s Award, FRC/FTC competitions, gaining sponsors/grants/funds, and doing community service outside of Oxford Academy and AUHSD. "]
+  },
+  {"tag":  "Founder",
+  "patterns":  ["Who is the founder of OA Robotics?", "Who created this club?"],
+  "responses":  ["Kevin Tran founded this club in 2016"]
+  },
+  {"tag":  "Communication",
+  "patterns":  ["What is OA Robotics main form of communication?", "How do I communicate with the club members?"],
+  "responses":  ["Our main form of communication is Discord. However, we also use Notion to keep track of our daily tasks and to keep us on schedule"]
+  },
+  {"tag":  "Off-Season",
+  "patterns":  ["What is an Off-Season?", "When do I know that we are in the Off-Season?"],
+  "responses":  ["Off-Season usually occurs throughout the months of May and December. During the Off-Season, we compete in minor competitions such as Battleship Blast and Beach Blitz. These competitions do not require a great amount of time on the robot and are a great way for members to practice before the In-Season games. "]
+  },
+  {"tag":  "In-Season",
+  "patterns":  ["What is an In-Season?", "When do I know that we are in the In-Season?"],
+  "responses":  ["In-Season typically occurs during the months of January and April. During the In-Season, we compete in the major regional competitions such as the Orange County Regional. Each game is different each year and are important as they require a lot more brainpower to design a robot that fits within the rules of the game. "]
+  },
+  {"tag":  "Beach Blitz",
+  "patterns":  ["What is Beach Blitz?"],
+  "responses":  ["Beach Blitz is an off-season, "]
+  },
+  {"tag":  "Battleship Blast",
+  "patterns":  [""],
+  "responses":  [""]
+  },
+  {"tag":  "",
+  "patterns":  ["Orange County Regional"],
+  "responses":  [""]
+  },
+  {"tag":  "",
+  "patterns":  ["FRC Kickoff"],
+  "responses":  [""]
+  },
+  {"tag":  "Publicity Bot",
+  "patterns":  [""],
+  "responses":  [""]
+  },
+  {"tag":  "Do not edit",
+  "patterns":  [""],
+  "responses":  [""]
+  }
+]}
+ 
+ 
+ 
+
+
