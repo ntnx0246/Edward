@@ -7,6 +7,7 @@ import pyttsx3
 import subprocess
 import time
 import discord
+from googletrans import Translator
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import warnings
 warnings.filterwarnings("ignore")
@@ -30,6 +31,7 @@ intents = json.loads(open('intents.json').read())
 edward = pyttsx3.init()
 edward.setProperty('rate', 160)
 
+translator = Translator()
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
@@ -103,25 +105,30 @@ async def on_message(message):
         if user_message == '😡':
             await message.channel.send(f'Angry {username}!')
             return
-
     if message.channel.name == 'edward':
-        if user_message.lower() == 'ping everyone':
-            await message.channel.send('@everyone')
+        if user_message == '🔫':
+            await message.channel.send(f' {username} 🔫')
             return
     
+
     if message.channel.name == 'edward':
         messages = user_message.lower()
+        trans = translator.translate(messages, dest="en")
+        messages = trans.text
         ints = predict_class(messages)
         if len(ints) == 0:
+            #translation = translator.translate("I don't understand you", src="en", dest="ko")
             await message.channel.send("I don't understand you")
             return
         res = get_response(ints, intents)
         if res == "":
+            #translation = translator.translate("I don't understand you", src="en", dest="ko")
             await message.channel.send("I don't understand you")
             return
         if res == "you":
-            await message.channel.send(f'@everyone {username} is the worst member')
+            await message.channel.send(f'{username} is the worst member')
             return
+        # translation = translator.translate(res, src="en", dest="ko")
         await message.channel.send(res)
         return
 

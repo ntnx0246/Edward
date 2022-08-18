@@ -185,7 +185,7 @@
   },
   {"tag":  "External Operations",
   "patterns":  ["What is External Operations?", "Is External Operations the right department for me?", "What do you do in External Operations"],
-  "responses":  ["External Operations focuses on publicizing OA Robotics outside the school’s parameters and are responsible for FRC/FTC individually. This includes taking charge in the Chairman’s Award, FRC/FTC competitions, gaining sponsors/grants/funds, and doing community service outside of Oxford Academy and AUHSD. "]
+  "responses":  ["External Operations focuses on publicizing OA Robotics outside the school's parameters and are responsible for FRC/FTC individually. This includes taking charge in the Chairman's Award, FRC/FTC competitions, gaining sponsors/grants/funds, and doing community service outside of Oxford Academy and AUHSD. "]
   },
   {"tag":  "Founder",
   "patterns":  ["Who is the founder of OA Robotics?", "Who created this club?"],
@@ -223,10 +223,95 @@
   "patterns":  [""],
   "responses":  [""]
   },
+  {"tag":  "Valorant Rank",
+  "patterns":  ["What is your rank in valorant?", "Rank valorant", "How good are you at valorant?"],
+  "responses":  ["I am Ascendant 1. My profile is Edward#0001."]
+  },
   {"tag":  "Do not edit",
   "patterns":  [""],
   "responses":  [""]
+  },
+  {"tag":  "Edward Denying Impostor",
+  "patterns":  ["I'm Edward","I am Edward"],
+  "responses":  ["No, I'm Edward, the unofficial FRC 4079 mascot"]
+  },
+  {"tag":  "Good Night",
+  "patterns":  ["Good Night","GN"],
+  "responses":  ["Robots don't sleep","Good Night","Sleep Well"]
+  },
+  {"tag":  "Homework",
+  "patterns":  ["Homework","Do my work","Can you do my work"],
+  "responses":  ["Homework is assigned to you for a reason","Do it yourself","I'm going to pretend that I didn't hear that"]
+  },
+  {"tag":  "Age",
+  "patterns":  ["How old are you","Age","When were you born"],
+  "responses":  ["Younger than you are","Why are you asking","I was made pretty recently"]
+  },
+  {"tag":  "School",
+  "patterns":  ["School","Where do you live"],
+  "responses":  ["I live in the walls of Oxford Academy"]
+  },
+  {"tag":  "Instagram",
+  "patterns":  ["Instagram"],
+  "responses":  ["instagram.com/frc4079"]
+  },
+  {"tag":  "Easter Egg",
+  "patterns":  ["Easter Egg"],
+  "responses":  ["You discovered a secret easter egg that does… nothing"]
+  },
+  {"tag":  "Mockery",
+  "patterns":  ["I don't understand you"],
+  "responses":  ["Is mocking me fun?"]
+  },
+  {"tag":  "Mockery",
+  "patterns":  ["I don't understand you"],
+  "responses":  ["Is mocking me fun?"]
+  },
+  {"tag":  "Huh",
+  "patterns":  ["Huh"],
+  "responses":  ["Don't huh me","What's wrong"]
+  },
+  {"tag":  "Meaning of Life",
+  "patterns":  ["Meaning of life"],
+  "responses":  ["Are you done asking philosophical questions"]
+  },
+  {"tag":  "Food",
+  "patterns":  ["Favorite food"],
+  "responses":  ["Although I can't eat, if I could, I would probably like what my creator usually eats"]
+  },
+  {"tag":  "Sleep",
+  "patterns":  ["I'm tired","I'm sleepy","sleep"],
+  "responses":  ["Then go sleep"]
+  },
+  {"tag":  "What time is it",
+  "patterns":  ["What time is it"],
+  "responses":  ["Time to go get a watch"]
+  },
+  {"tag":  "Why did Edward cross the road",
+  "patterns":  ["Why did the chicken cross the road"],
+  "responses":  ["The chicken did not cross the road. The road passed beneath the chicken."]
+  },
+  {"tag":  "What time is it",
+  "patterns":  ["What time is it"],
+  "responses":  ["Time to go get a watch"]
+  },
+  {"tag":  "sus",
+  "patterns":  ["sus"],
+  "responses":  ["Is your vocabulary that limited to only the word sus?"]
+  },
+  {"tag":  "9+10",
+  "patterns":  ["9+10"],
+  "responses":  ["You already know the answer."]
+  },
+  {"tag":  "Half-Empty Glass",
+  "patterns":  ["Half-empty","Half-full"],
+  "responses":  ["People might say that the glass jaris either half-full or half-empty, but real engineers know that the glass jar is twice as big as it's supposed to be."]
+  },
+  {"tag":  "Engineering Joke",
+  "patterns":  ["Tell me a joke"],
+  "responses":  ["https://res.cloudinary.com/engineering-com/image/upload/w_350,c_limit,q_auto,f_auto/Engineering_Jokes_1_ezedds.jpg"]
   }
+
 ]}
  
  

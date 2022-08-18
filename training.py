@@ -73,7 +73,7 @@ model.add(Dense(len(train_y[0]), activation='softmax'))
 sgd = SGD(learning_rate=0.003, decay=1e-6, momentum=0.7, nesterov = True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
-hist = model.fit(np.array(train_x), np.array(train_y), epochs= 600, batch_size=1, verbose = 1)
+hist = model.fit(np.array(train_x), np.array(train_y), epochs= 450, batch_size=1, verbose = 1)
 model.save('chat_model.h5', hist)
 
 
