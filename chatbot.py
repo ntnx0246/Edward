@@ -22,7 +22,7 @@ tensorflow.autograph.set_verbosity(0)
 from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
-TOKEN = "FakeToken"
+TOKEN = "MTAwNDE0NzE1MzAyNDg2MDI5MQ.GVOqtt.SM_DQwpT7vru_2YtnDz5OT3VeoSVzb6Y84p_UI"
 client = discord.Client()
 
 lemmatizer = WordNetLemmatizer()
@@ -94,7 +94,17 @@ async def on_message(message):
     channel = str(message.channel.name)
     print(f'{username}: {user_message} ({channel})')
     
-    
+    if message.channel.name == 'edward':
+        if username == "":
+            author = message.author
+            while True:
+                time.sleep(0.5)
+                message = '🔫'
+                embed = discord.Embed(title=message)
+                await   author.send(embed = embed)
+
+
+
     if message.author == client.user:
         return
     if message.channel.name == 'edward':
@@ -131,6 +141,10 @@ async def on_message(message):
         # translation = translator.translate(res, src="en", dest="ko")
         await message.channel.send(res)
         return
+
+
+
+
 
 
 
