@@ -235,9 +235,13 @@
   "patterns":  ["I'm Edward","I am Edward"],
   "responses":  ["No, I'm Edward, the unofficial FRC 4079 mascot"]
   },
+  {"tag":  "Impostor",
+  "patterns":  ["I'm Edward","I am Edward"],
+  "responses":  ["No, I'm Edward, the unofficial FRC 4079 mascot"]
+  },
   {"tag":  "Good Night",
   "patterns":  ["Good Night","GN"],
-  "responses":  ["Robots don't sleep","Good Night","Sleep Well"]
+  "responses":  ["Robots don't sleep","Good night","Sleep well"]
   },
   {"tag":  "Homework",
   "patterns":  ["Homework","Do my work","Can you do my work"],
@@ -257,11 +261,7 @@
   },
   {"tag":  "Easter Egg",
   "patterns":  ["Easter Egg"],
-  "responses":  ["You discovered a secret easter egg that does… nothing"]
-  },
-  {"tag":  "Mockery",
-  "patterns":  ["I don't understand you"],
-  "responses":  ["Is mocking me fun?"]
+  "responses":  ["You discovered a secret easter egg that does... nothing"]
   },
   {"tag":  "Mockery",
   "patterns":  ["I don't understand you"],
@@ -277,27 +277,23 @@
   },
   {"tag":  "Food",
   "patterns":  ["Favorite food"],
-  "responses":  ["Although I can't eat, if I could, I would probably like what my creator usually eats"]
+  "responses":  ["Although I can't eat, if I could, I would probably like what my creator usually eats."]
   },
   {"tag":  "Sleep",
-  "patterns":  ["I'm tired","I'm sleepy","sleep"],
+  "patterns":  ["Tired","Sleep"],
   "responses":  ["Then go sleep"]
   },
-  {"tag":  "What time is it",
+  {"tag":  "Time",
   "patterns":  ["What time is it"],
   "responses":  ["Time to go get a watch"]
   },
   {"tag":  "Why did Edward cross the road",
-  "patterns":  ["Why did the chicken cross the road"],
-  "responses":  ["The chicken did not cross the road. The road passed beneath the chicken."]
-  },
-  {"tag":  "What time is it",
-  "patterns":  ["What time is it"],
-  "responses":  ["Time to go get a watch"]
+  "patterns":  ["Why did the Edward cross the road"],
+  "responses":  ["Edward did not cross the road. The road passed beneath Edward."]
   },
   {"tag":  "sus",
   "patterns":  ["sus"],
-  "responses":  ["Is your vocabulary that limited to only the word sus?"]
+  "responses":  ["Is your vocabulary limited to the word sus?"]
   },
   {"tag":  "9+10",
   "patterns":  ["9+10"],
@@ -309,8 +305,41 @@
   },
   {"tag":  "Engineering Joke",
   "patterns":  ["Tell me a joke"],
-  "responses":  ["https://res.cloudinary.com/engineering-com/image/upload/w_350,c_limit,q_auto,f_auto/Engineering_Jokes_1_ezedds.jpg"]
+  "responses":  ["https://res.cloudinary.com/engineering-com/image/upload/w_350,c_limit,q_auto,f_auto/Engineering_Jokes_1_ezedds.jpg","https://sayingimages.com/engineering-memes/","https://cheezburger.com/9965829/engineering-memes-for-anyone-considering-dropping-out-of-school","https://negativefeedback-teen.tumblr.com/post/186126526065","https://www.adultist.org/posts/14-most-relatable-memes-for-engineering-majors","https://www.google.com/imgres?imgurl=https%3A%2F%2F64.media.tumblr.com%2F648d939b6f4b4f8006c210aaf58e20c7%2Fa476589e77e30a9b-79%2Fs1280x1920%2F54f15c51d0a08d6540bea865a99114beba1bbc6f.jpg&imgrefurl=https%3A%2F%2Fnegativefeedback-teen.tumblr.com%2Fpost%2F633624739294920704&tbnid=azW0hcCD-TfnBM&vet=12ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyg9egQIARBT..i&docid=QBoB7lVnkmKH8M&w=960&h=960&q=engineering%20memes&ved=2ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyg9egQIARBT","https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ppehq.com%2Fuploads%2F1%2F8%2F7%2F9%2F18794576%2Fengineering-memes-squid-games_orig.jpg&imgrefurl=https%3A%2F%2Fwww.ppehq.com%2Fengineering-jokes.html&tbnid=1IL8SinZByEHMM&vet=12ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyhBegQIARBb..i&docid=xY9Eex62SffXtM&w=1170&h=781&q=engineering%20memes&ved=2ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyhBegQIARBb","https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.huffingtonpost.com%2Fasset%2F5bae3e3a2000003000ff3a12.jpeg%3Fops%3Dscalefit_630_400_noupscale%26format%3Dwebp&imgrefurl=https%3A%2F%2Fwww.huffpost.com%2Fentry%2Fengineering-memes-facebook_n_2018734&tbnid=1oXtlPbLpixq9M&vet=12ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyhHegQIARBn..i&docid=pBuPbC31LdAqUM&w=579&h=400&q=engineering%20memes&ved=2ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyhHegQIARBn","https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F60%2Fc1%2F4a%2F60c14a43fb4745795b3b358868517e79.png&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F196399233738247009%2F&tbnid=Rkndb4dceTNkSM&vet=12ahUKEwjZxJiq6ND5AhXHg2oFHfK8DlMQMygAegUIARDHAQ..i&docid=sNSWc5GvNGGCaM&w=1000&h=1000&q=rick%20roll%20qr%20code&ved=2ahUKEwjZxJiq6ND5AhXHg2oFHfK8DlMQMygAegUIARDHAQ"]
+  },
+  {"tag":  "Fruit",
+  "patterns":  ["Fruit"],
+  "responses":  ["Edward's favorite fruit are oranges."]
+  },
+  {"tag":  "Subject",
+  "patterns":  ["Subject"],
+  "responses":  ["Edward's favorite subject is physics."]
+  },
+  {"tag":  "Hungry",
+  "patterns":  ["Hungry"],
+  "responses":  ["Then go eat"]
+  },
+  {"tag":  "Derrick",
+  "patterns":  ["Derrick","Ahn"],
+  "responses":  ["Derrick helped insert data in me."]
+  },
+  {"tag":  "Antiderivative of e^x",
+  "patterns":  ["Antiderivative of e^x"],
+  "responses":  ["F(x)=e^x+C"]
+  },
+  {"tag":  "Height",
+  "patterns":  ["Height"],
+  "responses":  ["I am 17.6cm (6.929in)"]
+  },
+  {"tag":  "MBTI",
+  "patterns":  ["Personality","MBTI"],
+  "responses":  ["I am an ISTJ"]
+  },
+  {"tag":  "Division",
+  "patterns":  ["Division"],
+  "responses":  ["I am in the software division"]
   }
+
 
 ]}
  
