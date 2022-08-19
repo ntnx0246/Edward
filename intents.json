@@ -305,7 +305,7 @@
   },
   {"tag":  "Half-Empty Glass",
   "patterns":  ["Half-empty","Half-full"],
-  "responses":  ["People might say that the glass jaris either half-full or half-empty, but real engineers know that the glass jar is twice as big as it's supposed to be."]
+  "responses":  ["People might say that the glass jar is either half-full or half-empty, but real engineers know that the glass jar is twice as big as it's supposed to be."]
   },
   {"tag":  "Engineering Joke",
   "patterns":  ["Tell me a joke"],
