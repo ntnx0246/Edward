@@ -77,10 +77,6 @@ hist = model.fit(np.array(train_x), np.array(train_y), epochs= 450, batch_size=1
 model.save('chat_model.h5', hist)
 
 
-print("Training is done")
-
-#Test
-
 
 
 
