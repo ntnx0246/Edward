@@ -94,16 +94,6 @@ async def on_message(message):
     channel = str(message.channel.name)
     print(f'{username}: {user_message} ({channel})')
     
-    if message.channel.name == 'edward':
-        if username == "":
-            author = message.author
-            while True:
-                time.sleep(0.5)
-                message = '🔫'
-                embed = discord.Embed(title=message)
-                await   author.send(embed = embed)
-
-
 
     if message.author == client.user:
         return
