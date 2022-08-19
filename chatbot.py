@@ -22,8 +22,7 @@ tensorflow.autograph.set_verbosity(0)
 from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
-TOKEN = "MTAwNDE0NzE1MzAyNDg2MDI5MQ.GVOqtt.SM_DQwpT7vru_2YtnDz5OT3VeoSVzb6Y84p_UI"
-TOKEN = "MTAwNDE0NzE1MzAyNDg2MDI5MQ.GoJmz0.I3Oq8av6RC76WoR8WMtwsrBSoDEFhqA4M-59oE"
+TOKEN = ""
 client = discord.Client()
 
 lemmatizer = WordNetLemmatizer()
