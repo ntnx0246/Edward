@@ -23,6 +23,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 TOKEN = "MTAwNDE0NzE1MzAyNDg2MDI5MQ.GVOqtt.SM_DQwpT7vru_2YtnDz5OT3VeoSVzb6Y84p_UI"
+TOKEN = "MTAwNDE0NzE1MzAyNDg2MDI5MQ.GoJmz0.I3Oq8av6RC76WoR8WMtwsrBSoDEFhqA4M-59oE"
 client = discord.Client()
 
 lemmatizer = WordNetLemmatizer()
@@ -105,15 +106,10 @@ async def on_message(message):
         if user_message == '😡':
             await message.channel.send(f'Angry {username}!')
             return
-    if message.channel.name == 'edward':
-        if user_message == '🔫':
-            await message.channel.send(f' {username} 🔫')
-            return
     
-
     if message.channel.name == 'edward':
         messages = user_message.lower()
-        trans = translator.translate(messages, dest="en")
+        #trans = translator.translate(messages, dest="en")
         messages = trans.text
         ints = predict_class(messages)
         if len(ints) == 0:
