@@ -658,6 +658,10 @@
   {"tag":  "Ping derrick",
   "patterns":  ["ping derrick"],	
   "responses":  ["<@586246554235437067>"]
+  },
+  {"tag":  "Hightide",
+  "patterns":  ["hightide"],	
+  "responses":  ["https://cdn.discordapp.com/attachments/1014044434695979059/1014044493001011251/unknown.png"]
   }
 ]}
  
