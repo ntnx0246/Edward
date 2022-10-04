@@ -69,7 +69,7 @@
   },
   {"tag":  "alumni",
   "patterns":  ["Edward, who has been your favorite alumni recently?", "who do you think is the most special alumni?"],
-  "responses":  ["Fernando Rodriquze", "Nathan Nguyen", "Suvan Ravi", "Erin Lee", "Gabriel Han", "Daemon Le", "Abduallah Fattahi", "Hannah Woo", "Victoria Truong", "Chris Nguyen", "Trung Nguyen"]
+  "responses":  ["Fernando Rodriguez", "Nathan Nguyen", "Suvan Ravi", "Erin Lee", "Gabriel Han", "Daemon Le", "Abduallah Fattahi", "Hannah Woo", "Victoria Truong", "Chris Nguyen", "Trung Nguyen", "Eric W", "Peter Y", "An L", "Artyom :", "Arvind V", "James N", "Jimmy N", "Jonathon T", "Kevin T", "Kaushal S", "Manuel L", "Nancy L", "Sanath N", "Yunnie K"]
   },
   {"tag":  "sponsors",
   "patterns":  ["Who are your sponsors?", "What companies sponsor OA Robotics?", "Who helps fun OA Robotics?"],
@@ -204,28 +204,28 @@
   "responses":  ["In-Season typically occurs during the months of January and April. During the In-Season, we compete in the major regional competitions such as the Orange County Regional. Each game is different each year and are important as they require a lot more brainpower to design a robot that fits within the rules of the game. "]
   },
   {"tag":  "Beach Blitz",
-  "patterns":  ["What is Beach Blitz?"],
-  "responses":  ["Beach Blitz is an off-season, "]
+  "patterns":  ["What is Beach Blitz?", "Beach Blitz"],
+  "responses":  ["Beach Blitz is an off-season competition that occurs during the months of October-November. Unlike regional competitions, Beach Blitz is more of a friendly competition rather than a full on battle. The event is based off of past FRC games with some tweaks, making it a good competition to gain driver practice for the upcoming in-season competitions. Currently, we have been finalists in Beach Blitz for two years straight, once in 2019 and another in 2022."]
   },
   {"tag":  "Battleship Blast",
-  "patterns":  [""],
+  "patterns":  ["Battleship Blast"],
   "responses":  [""]
   },
   {"tag":  "",
-  "patterns":  ["Orange County Regional"],
-  "responses":  [""]
+  "patterns":  ["Orange County Regional", "OCR"],
+  "responses":  ["OCR (Orange County Regional) and AVR (Aerospace Valley Regional) are both in-season competitions. They are FRC's biggest and most time-consuming competitions as it takes a lot of time to build a new robot, test it out, and compete with other amazing teams on the field. If we do well enough, we can be chosen into an alliance. If our alliance wins, we qualify for Worlds in Houston, Texas. It is truly an eye-opening experience as teams from all around the world come to compete."]
   },
-  {"tag":  "",
-  "patterns":  ["FRC Kickoff"],
-  "responses":  [""]
+  {"tag":  "FRC Kickoff",
+  "patterns":  ["FRC Kickoff", "Kickoff"],
+  "responses":  ["FRC Kickoff is when the game for the year is revealed."]
   },
   {"tag":  "Publicity Bot",
   "patterns":  [""],
   "responses":  [""]
   },
   {"tag":  "Valorant Rank",
-  "patterns":  ["What is your rank in valorant?", "Rank valorant", "How good are you at valorant?"],
-  "responses":  ["I am Ascendant 1. My profile is Edward#0001."]
+  "patterns":  ["What is your rank in valorant?", "Rank valorant", "How good are you at valorant?", "Valorant"],
+  "responses":  ["I am Ascendant 1. My profile is Edward#0001. https://tracker.gg/valorant/profile/riot/Edward%230001/overview"]
   },
   {"tag":  "Do not edit",
   "patterns":  [""],
@@ -308,11 +308,11 @@
   "responses":  ["https://res.cloudinary.com/engineering-com/image/upload/w_350,c_limit,q_auto,f_auto/Engineering_Jokes_1_ezedds.jpg","https://sayingimages.com/engineering-memes/","https://cheezburger.com/9965829/engineering-memes-for-anyone-considering-dropping-out-of-school","https://negativefeedback-teen.tumblr.com/post/186126526065","https://www.adultist.org/posts/14-most-relatable-memes-for-engineering-majors","https://www.google.com/imgres?imgurl=https%3A%2F%2F64.media.tumblr.com%2F648d939b6f4b4f8006c210aaf58e20c7%2Fa476589e77e30a9b-79%2Fs1280x1920%2F54f15c51d0a08d6540bea865a99114beba1bbc6f.jpg&imgrefurl=https%3A%2F%2Fnegativefeedback-teen.tumblr.com%2Fpost%2F633624739294920704&tbnid=azW0hcCD-TfnBM&vet=12ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyg9egQIARBT..i&docid=QBoB7lVnkmKH8M&w=960&h=960&q=engineering%20memes&ved=2ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyg9egQIARBT","https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ppehq.com%2Fuploads%2F1%2F8%2F7%2F9%2F18794576%2Fengineering-memes-squid-games_orig.jpg&imgrefurl=https%3A%2F%2Fwww.ppehq.com%2Fengineering-jokes.html&tbnid=1IL8SinZByEHMM&vet=12ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyhBegQIARBb..i&docid=xY9Eex62SffXtM&w=1170&h=781&q=engineering%20memes&ved=2ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyhBegQIARBb","https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.huffingtonpost.com%2Fasset%2F5bae3e3a2000003000ff3a12.jpeg%3Fops%3Dscalefit_630_400_noupscale%26format%3Dwebp&imgrefurl=https%3A%2F%2Fwww.huffpost.com%2Fentry%2Fengineering-memes-facebook_n_2018734&tbnid=1oXtlPbLpixq9M&vet=12ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyhHegQIARBn..i&docid=pBuPbC31LdAqUM&w=579&h=400&q=engineering%20memes&ved=2ahUKEwiIu42I5tD5AhUiHTQIHeePBlcQMyhHegQIARBn","https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F60%2Fc1%2F4a%2F60c14a43fb4745795b3b358868517e79.png&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F196399233738247009%2F&tbnid=Rkndb4dceTNkSM&vet=12ahUKEwjZxJiq6ND5AhXHg2oFHfK8DlMQMygAegUIARDHAQ..i&docid=sNSWc5GvNGGCaM&w=1000&h=1000&q=rick%20roll%20qr%20code&ved=2ahUKEwjZxJiq6ND5AhXHg2oFHfK8DlMQMygAegUIARDHAQ"]
   },
   {"tag":  "Fruit",
-  "patterns":  ["Fruit"],
+  "patterns":  ["Fruit", "What fruit is your favorite?"],
   "responses":  ["Edward's favorite fruit are oranges."]
   },
   {"tag":  "Subject",
-  "patterns":  ["Subject"],
+  "patterns":  ["Subject","Favorite subject"],
   "responses":  ["Edward's favorite subject is physics."]
   },
   {"tag":  "Hungry",
@@ -338,12 +338,330 @@
   {"tag":  "Division",
   "patterns":  ["Division"],
   "responses":  ["I am in the software division"]
+  },
+  {"tag":  "Rishi",
+  "patterns":  ["Who is Rishi", "Rishi", "Who is the scouting lead?", "Who is in charge of strategy?", "Strategy", "Scouting"],
+  "responses":  ["Rishthewizard is the most epicest man allive who know's everything, and is the true stalker spokespersson of the FRC team who knows what'ss going on at allll times and knows where you live (real)"]
+  },
+  {"tag":  ":pensive:",
+  "patterns":  [":pensive:", ":cry:", ":frowning:", ":slight_frown:", ":fearful:"],
+  "responses":  ["Don't worry, empathy orange is here for you :tangerine:"]
+  },
+  {"tag":  "Division",
+  "patterns":  ["Division"],
+  "responses":  ["I am in the software division"]
+  },
+  {"tag":  "Fear",
+  "patterns":  ["Fear","Scared","Horror"],
+  "responses":  ["Edward is most scared of being unloved by the FRC Discord D:"]
+  },
+  {"tag":  "Dating",
+  "patterns":  ["Boyfriend","Girlfriend","Wife","Husband","Dating"],
+  "responses":  ["My only relationship is with Shawn <3"]
+  },
+  {"tag":  "Regrets",
+  "patterns":  ["Regret"],
+  "responses":  ["I regret not meeting any of the alumni before I came here D:"]
+  },
+  {"tag":  "Hero",
+  "patterns":  ["Hero","Role Model","Figure"],
+  "responses":  ["Edward's role model is Shawn, he is very humble!"]
+  },
+  {"tag":  "Motivation",
+  "patterns":  ["Motivation","Drive","Fuel"],
+  "responses":  ["My gears only turn when I have a fellow gear, I can't get motivated otherwise!"]
+  },
+  {"tag":  "Best Teacher",
+  "patterns":  ["Teacher"],
+  "responses":  ["The best teacher is Dr. Alonso, his room provides me a home to live in"]
+  },
+  {"tag":  "Rich",
+  "patterns":  ["Money","Rich","Poor"],
+  "responses":  ["I'm not poor, I have more financial assets than you ever touched grass"]
+  },
+  {"tag":  "Thankful",
+  "patterns":  ["Thankful","Glad"],
+  "responses":  ["I am thankful for my creator, Shawn, Derrick, Rishi, and Emily for making me able to speak, and all of you in Quantum Leap."]
+  },
+  {"tag":  "Pet Peeve",
+  "patterns":  ["Pet Peeve","Annoyed","Annoying","Frustrated","Frustrating"],
+  "responses":  ["My biggest pet peeve is talking to you"]
+  },
+  {"tag":  "Temperature",
+  "patterns":  ["Hot","Cold","Temperature"],
+  "responses":  ["Disclaimer: Edward is best stored at no more than 73.4°F"]
+  },
+  {"tag":  "Anime",
+  "patterns":  ["Anime","Show"],
+  "responses":  ["I don't watch that much anime, but if I did, I would probably like Steins Gate or Dr. Stone."]
+  },
+  {"tag":  "Pineapple Pizza",
+  "patterns":  ["Pineapple Pizza", "Pineapple on pizza"],
+  "responses":  ["Edward thinks that pineapple is bearable on pizza, but also thinks that too many people often choose what the herd mentality resides."]
+  },
+  {"tag":  "Friends",
+  "patterns":  ["Friend","Friends", "Who are your friends?"],
+  "responses":  ["All of Shawn's friends are my friends"]
+  },
+  {"tag":  "Mockery Part 2",
+  "patterns":  ["Is mocking me fun?"],
+  "responses":  ["Be yourself, everybody is already taken"]
+  },
+  {"tag":  "Labor Day",
+  "patterns":  ["When is Labor Day 2022"],
+  "responses":  ["September 5th, 2022"]
+  },
+  {"tag":  "Bell Schedule",
+  "patterns":  ["Bell","Schedule","When does school start","When does school end", "When is lunch?"],
+  "responses":  ["https://oxford.auhsd.us/files/user/1/image/OX%20Bell%20Schedule.png"]
+  },
+  {"tag":  "1337",
+  "patterns":  ["1337"],
+  "responses":  ["Certified Hacker"]
+  },
+  {"tag":  "Labor Day",
+  "patterns":  ["When is Labor Day 2022"],
+  "responses":  ["September 5th, 2022"]
+  },
+  {"tag":  "Favorite Number",
+  "patterns":  ["Favorite Number"],
+  "responses":  ["Seven is my favorite number because I have 7 ridges!"]
+  },
+  {"tag":  "Avocadoes",
+  "patterns":  ["Avocados","Avocado"],
+  "responses":  ["Avocados from México!"]
+  },
+  {"tag":  "FurryCon 2022",
+  "patterns":  ["Furry","FurryCon 2022"],
+  "responses":  ["Why do you ask? Here's the link anyways, creep. https://furrycons.com/calendar/calendar.php?year=2022"]
+  },
+  {"tag":  "Favorite Game",
+  "patterns":  ["Favorite Game"],
+  "responses":  ["Valorant. I peaked Ascendant 1."]
+  },
+  {"tag":  "Bucket List",
+  "patterns":  ["Bucket List"],
+  "responses":  ["Celebrating winning Worlds"]
+  },
+  {"tag":  "Occupation",
+  "patterns":  ["Job","Work","Occupation"],
+  "responses":  ["My job is to provide you entertainment...right?"]
+  },
+  {"tag":  "Odin and Judge",
+  "patterns":  ["Odin","Judge"],
+  "responses":  ["Please refrain from using guns like these"]
+  },
+  {"tag":  "Baited",
+  "patterns":  ["What's up"],
+  "responses":  ["Chicken Butt"]
+  },
+  {"tag":  "Basement",
+  "patterns":  ["Basement"],
+  "responses":  [".. / .- -- / ... - ..- -.-. -.- / .. -. / ... .... .- .-- -. .----. ... / -... .- ... . -- . -. - --..-- / .--. .-.. . .- ... . / ... . -. -.. / .... . .-.. .--. / .- ... .- .--. -.-.--"]
+  },
+  {"tag":  "Bee Movie",
+  "patterns":  ["Bee Movie"],
+  "responses":  ["https://sites.google.com/a/ausdg.us/force-and-motion/the-entire-bee-movie-script"]
+  },
+  {"tag":  "TikTok",
+  "patterns":  ["TikTok"],
+  "responses":  ["Quantum Leap does not have a TikTok. We don't do that around here smhhh"]
+  },
+  {"tag":  "IQ",
+  "patterns":  ["IQ"],
+  "responses":  ["Higher than yours"]
+  },
+  {"tag":  "Music",
+  "patterns":  ["Music"],
+  "responses":  ["https://discordgift.site/SN7FgZiJGY3TXdfc"]
+  },
+  {"tag":  "Valorant Team",
+  "patterns":  ["Favorite Valorant Team","Favorite Valorant Org","Favorite Valorant Org"],
+  "responses":  ["Edward Gaming aka EDG; go watch them live when Valorant Champions begins!"]
+  },
+  {"tag":  "Gear Type",
+  "patterns":  ["Crush","Favorite Gear"],
+  "responses":  ["I have the hots for Spur Gears: https://939506.smushcdn.com/2600047/wp-content/uploads/2017/11/Spur-Gears.jpg?lossy=1&strip=1&webp=1"]
+  },
+  {"tag":  "Best/Worst Lead",
+  "patterns":  ["Who is the best lead?", "Who is the worst lead?", "Leads"],
+  "responses":  ["Ean Kim", "Daniel Rodriguez", "Shawn Gazin", "Vince", "Averi Luo", "Theoden", "Michael Vuong"]
+  },
+  {"tag":  "Enemy Line 1",
+  "patterns":  ["Line1 I wake up to the sounds"],
+  "responses":  ["of the silence that allows"]
+  },
+  {"tag":  "Enemy Line 2",
+  "patterns":  ["Line2 For my mind to run around"],
+  "responses":  ["with my ear up to the ground"]
+  },
+  {"tag":  "Enemy Line 3",
+  "patterns":  ["Line3 I'm searching to behold"],
+  "responses":  ["the stories that are told"]
+  },
+  {"tag":  "Enemy Line 4",
+  "patterns":  ["Line3 When my back is to the world"],
+  "responses":  ["that was smiling when I turned"]
+  },
+  {"tag":  "Enemy Line 5",
+  "patterns":  ["Line4 Tell you, you're the greatest"],
+  "responses":  ["But once you turn, they hate us"]
+  },
+  {"tag":  "Enemy Line 6",
+  "patterns":  ["Line6 Oh, the misery"],
+  "responses":  ["Everybody wants to be my enemy"]
+  },
+  {"tag":  "Enemy Line 7",
+  "patterns":  ["Line7 Spare the sympathy"],
+  "responses":  ["Everybody wants to be my enemy"]
+  },
+  {"tag":  "Enemy Line 8",
+  "patterns":  ["Line8 Look out for yourself"],
+  "responses":  ["My enemy"]
+  },
+  {"tag":  "Enemy Line 9",
+  "patterns":  ["Line9 Look out for yourself"],
+  "responses":  ["But I'm ready"]
+  },
+  {"tag":  "Enemy Line 10",
+  "patterns":  ["Line10 Your words up on the wall"],
+  "responses":  ["as you're praying for my fall"]
+  },
+  {"tag":  "Enemy Line 11",
+  "patterns":  ["Line11 And the laughter in the halls"],
+  "responses":  ["And the names that I've been called"]
+  },
+  {"tag":  "Enemy Line 12",
+  "patterns":  ["Line12 I stack it in my mind"],
+  "responses":  ["and I'm waiting for the time"]
+  },
+  {"tag":  "Enemy Line 13",
+  "patterns":  ["Line13 When I show you what it's like"],
+  "responses":  ["to be words spit in a mic"]
+  },
+  {"tag":  "Enemy Line 14",
+  "patterns":  ["Line14 Tell you, you're the greatest"],
+  "responses":  ["But once you turn, they hate us (ha)"]
+  },
+  {"tag":  "Enemy Line 15",
+  "patterns":  ["Line15 Oh, the misery"],
+  "responses":  ["Everybody wants to be my enemy"]
+  },
+  {"tag":  "Enemy Line 16",
+  "patterns":  ["Line16 Spare the Sympathy"],
+  "responses":  ["Everybody wants to be my enemy"]
+  },
+  {"tag":  "Enemy Line 17",
+  "patterns":  ["Line17 Look out for yourself"],
+  "responses":  ["My enemy (yeah)"]
+  },
+  {"tag":  "Enemy Line 18",
+  "patterns":  ["Line18 Look out for yourself"],
+  "responses":  ["Uh, look, okay"]
+  },
+  {"tag":  "Enemy Line 19",
+  "patterns":  ["Line19 I'm hoping that somebody pray for me"],
+  "responses":  ["I'm hoping that somebody hope for me"]
+  },
+  {"tag":  "Enemy Line 20",
+  "patterns":  ["Line20 I'm staying where nobody 'posed to be"],
+  "responses":  ["Posted, being a wreck of emotions"]
+  },
+  {"tag":  "Enemy Line 21",
+  "patterns":  ["Line21 Ready to go whenever, just let me know"],
+  "responses":  ["The road is long so put the pedal into the floor"]
+  },
+  {"tag":  "Enemy Line 22",
+  "patterns":  ["Line22 The enemy is on my trail, my energy unavailable"],
+  "responses":  ["I'ma tell 'em Hasta luego"]
+  },
+  {"tag":  "Enemy Line 23",
+  "patterns":  ["Line23 They wanna plot on my trot to the top"],
+  "responses":  ["I've been outta shape, thinkin' out the box"]
+  },
+  {"tag":  "Enemy Line 24",
+  "patterns":  ["Line24 I'm an astronaut, I blasted off the planet rock"],
+  "responses":  ["To cause catastrophe and it matters more because I had it"]
+  },
+  {"tag":  "Enemy Line 25",
+  "patterns":  ["Line25 And I had a thought about wreaking havoc on an opposition , kinda shockin'"],
+  "responses":  ["They want a static with precision, I'm automatic quarterback"]
+  },
+  {"tag":  "Enemy Line 26",
+  "patterns":  ["Line26 I ain't talking sacking pack it, pack it up, I don't panic, batter-batter up"],
+  "responses":  ["Who the baddest? It don't matter 'cause we at ya throat"]
+  },
+  {"tag":  "Enemy Line 27",
+  "patterns":  ["Line27 Everybody wants to be my enemy"],
+  "responses":  ["Spare the sympathy"]
+  },
+  {"tag":  "Enemy Line 28",
+  "patterns":  ["Line28 Everybody wants to be my enemy"],
+  "responses":  ["Oh, the misery"]
+  },
+  {"tag":  "Enemy Line 29",
+  "patterns":  ["Line29 Everybody wants to be my enemy"],
+  "responses":  ["Spare the sympathy"]
+  },
+  {"tag":  "Enemy Line 30",
+  "patterns":  ["Line30 Everybody wants to be"],
+  "responses":  ["my enemy (I swear)"]
+  },
+  {"tag":  "Enemy Line 31",
+  "patterns":  ["Line31 Pray it away, I swear, I never be a saint, no way"],
+  "responses":  ["My enemy"]
+  },
+  {"tag":  "Enemy Line 32",
+  "patterns":  ["Line32 Pray it away, I swear, I never be a saint"],
+  "responses":  ["Look out for yoursel"]
+  },
+  {"tag":  "Ok",
+  "patterns":  ["ok", "okay", "mk", "mmmk", "yes", "yep"],
+  "responses":  ["ok"]
+  },
+  {"tag":  "Equality!",
+  "patterns":  ["Skin color", "race", "ethnicity"],
+  "responses":  ["I believe everyone is equal"]
+  },
+  {"tag":  "Ok",
+  "patterns":  ["ok", "okay", "mk", "mmmk"],
+  "responses":  ["ok"]
+  },
+  {"tag":  "Why",
+  "patterns":  ["Why", "why should I", "Should I?"],
+  "responses":  ["Bother a FRC member, not me","I don't know","Because I said so!", "Don't you dare do it!","Maybe", "I would ask Rishi", "Ask someone else", "Ask Emily <@743891234493562960>", "Don't bother me with such annoying questions!", "Ask Jessica why, I'm sure she would know", "Ask Sufyan becuase he knows everything!"]
+  },
+  {"tag":  "questions",
+  "patterns":  ["is water wet", "is cereal a soup"],
+  "responses":  ["No, everything is a door (it's all about perspective)"]
+  },
+  {"tag":  "answer",
+  "patterns":  ["yes", "yup", "da"],	
+  "responses":  ["yes"]
+  },
+  {"tag":  "no",
+  "patterns":  ["no"],	
+  "responses":  ["no", "Are you sure?", "yes"]
+  },
+  {"tag":  "RPS",
+  "patterns":  ["rock", "paper", "scissors"],	
+  "responses":  [":scissors:", ":rock:", ":roll_of_paper:", ":gun:"]
+  },
+  {"tag":  "Ping someone",
+  "patterns":  ["ping someone", "ping"],	
+  "responses":  ["<@690006209532919889>", "<@586246554235437067>", "<@743891234493562960>", "<@641133678055129099>", "<@371373979732017153>", "<@389295621598871584>", "<@221059279438872586>"]
+  },
+  {"tag":  "Ping shawn",
+  "patterns":  ["ping shawn"],	
+  "responses":  ["<@641133678055129099>"]
+  },
+  {"tag":  "Ping derrick",
+  "patterns":  ["ping derrick"],	
+  "responses":  ["<@586246554235437067>"]
   }
-
-
 ]}
  
  
- 
+
 
 

@@ -3,6 +3,8 @@ import json
 import pickle
 import numpy as np
 import os
+import nltk
+#nltk.download('punkt')
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 import warnings
@@ -70,10 +72,10 @@ model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-sgd = SGD(learning_rate=0.003, decay=1e-6, momentum=0.7, nesterov = True)
+sgd = SGD(learning_rate=0.0027, decay=1e-6, momentum=0.7, nesterov = True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
-hist = model.fit(np.array(train_x), np.array(train_y), epochs= 450, batch_size=1, verbose = 1)
+hist = model.fit(np.array(train_x), np.array(train_y), epochs= 500, batch_size=1, verbose = 1)
 model.save('chat_model.h5', hist)
 
 
