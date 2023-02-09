@@ -2,7 +2,7 @@ import discord
 import youtube_dl
 import os
 import time
-import PyNaCl
+#import PyNaCl
 from discord.ext import commands
 TOKEN = "MTAwNDE0NzE1MzAyNDg2MDI5MQ.GaYaZU.nXyERsn2ABxaRwSk3gbQ-ujtFuZlUx6MMUWj5c"
 

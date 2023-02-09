@@ -649,7 +649,7 @@
   },
   {"tag":  "Ping someone",
   "patterns":  ["ping someone", "ping"],	
-  "responses":  ["<@690006209532919889>", "<@586246554235437067>", "<@743891234493562960>", "<@641133678055129099>", "<@371373979732017153>", "<@389295621598871584>", "<@221059279438872586>"]
+  "responses":  ["<@690006209532919889>", "<@586246554235437067>", "<@743891234493562960>", "<@641133678055129099>", "<@389295621598871584>"]
   },
   {"tag":  "Ping shawn",
   "patterns":  ["ping shawn"],	
@@ -662,6 +662,10 @@
   {"tag":  "Hightide",
   "patterns":  ["hightide"],	
   "responses":  ["https://cdn.discordapp.com/attachments/1014044434695979059/1014044493001011251/unknown.png"]
+  },
+  {"tag":  "Free Time",
+  "patterns":  ["What do you do in your freetime?"],	
+  "responses":  ["in my free time i enjoy taking tiny nibbles out of Rishi's batman comic books (they have the best flavor)"]
   }
 ]}
  
