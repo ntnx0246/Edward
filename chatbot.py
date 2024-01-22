@@ -25,7 +25,7 @@ from discord.ext.commands import Bot
 from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
-TOKEN = "MTAwNDE0NzE1MzAyNDg2MDI5MQ.GaYaZU.nXyERsn2ABxaRwSk3gbQ-ujtFuZlUx6MMUWj5c"
+TOKEN = "MTAwNDE0NzE1MzAyNDg2MDI5MQ.G58D7F.Uzf-7RQA45zvStDaDmO5D-GHxkcAAmX8KXiS9o"
 # client = discord.Client()
 from discord.ext import commands
 import youtube_dl
@@ -165,6 +165,8 @@ async def on_message(message: discord.Message):
     # print("Message is working")\
     username = str(message.author).split('#')[0]
     user_message = str(message.content)
+    if(len(user_message) == 0):
+        return
     first_letter = user_message[0]
     if first_letter == "!":
         return
