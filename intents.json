@@ -666,6 +666,23 @@
   {"tag":  "Free Time",
   "patterns":  ["What do you do in your freetime?"],	
   "responses":  ["in my free time i enjoy taking tiny nibbles out of Rishi's batman comic books (they have the best flavor)"]
+  },
+  {"tag":  "opinion on jayden",
+  "patterns":  ["jayden"],	
+  "responses":  ["jayden is a very cool guy who is very good at FRC software and is cooler than shawn :D"]
+  },  
+  {"tag":  "ping jessica",
+  "patterns":  ["ping jessica"],	
+  "responses":  ["@jyss.zzz u r a dicatator >:O"]
+  },
+  {"tag":  "weapons",
+  "patterns":  ["north korea", "nuclear weapons", "nukes", "nuclear war", "kim"],	
+  "responses":  ["kim jung un is my best friend (coploiot wrote this)"]
+  },
+  {
+  "tag":  "mrs nyguen",
+  "patterns":  ["nyguen", "physics", "mrs nyguen", "teacher"],
+  "responses":  ["shawn hates mrs nyguen cause hes is shawn."]
   }
 ]}
  
