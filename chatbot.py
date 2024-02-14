@@ -25,7 +25,6 @@ from discord.ext.commands import Bot
 from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
-TOKEN = "MTAwNDE0NzE1MzAyNDg2MDI5MQ.G58D7F.Uzf-7RQA45zvStDaDmO5D-GHxkcAAmX8KXiS9o"
 # client = discord.Client()
 from discord.ext import commands
 import youtube_dl
@@ -206,18 +205,10 @@ async def on_message(message: discord.Message):
         
     if message.channel.name == 'edward':
         messages = user_message.lower()
-        #trans = translator.translate(messages, dest="en")
-        #messages = trans.text
+        trans = translator.translate(messages, dest="en")
+        messages = trans.text
         ints = predict_class(messages)
-        if len(ints) == 0:
-            #translation = translator.translate("I don't understand you", src="en", dest="ko")
-            await message.channel.send("I don't understand you")
-            return
         res = get_response(ints, intents)
-        if res == "":
-            #translation = translator.translate("I don't understand you", src="en", dest="ko")
-            await message.channel.send("I don't understand you")
-            return
         if res == "you":
             await message.channel.send(f'{username} is the worst member')
             return

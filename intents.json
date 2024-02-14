@@ -25,7 +25,7 @@
   },
   {"tag":  "shawn",
   "patterns":  ["Who is the software lead?"],
-  "responses":  ["Shawn"]
+  "responses":  ["Shawn", "Not Jayden Sun"]
   },
   {"tag":  "biggest dumb dumb",
   "patterns":  ["who is the biggest babo?", "who is the biggest baka?", "Who is the dumbest member?", "Who is the worst member?", "Who do you hate the most?", "What member do you want to get rid of?", "babo", "baka"],
@@ -53,7 +53,7 @@
   },
   {"tag":  "programs director",
   "patterns":  ["Who is the leader of this club?", "Who is the director of OA Robotics?", "Which person controls this club", "What position does Emily have?"],
-  "responses":  ["Emily Lee is the programs director."]
+  "responses":  ["Jessica is the programs director."]
   },
   {"tag":  "experience",
   "patterns":  ["do you need experience to join OA Robotics?", "do I need to know anything before I join?", "are there any requirements before joining?"],
@@ -85,27 +85,27 @@
   },
   {"tag":  "FRC Captain",
   "patterns":  ["Who is the FRC captain?", "What position does Jessica have?"],
-  "responses":  ["Jessica Li is the FRC captain."]
+  "responses":  ["Averi is the FRC captain."]
   },
   {"tag":  "FTC Captain",
   "patterns":  ["Who is the FTC captain?", "What position does Sufyan have?"],
-  "responses":  ["Sufyan is the FTC captain."]
+  "responses":  ["Michael Vuong is the FTC captain."]
   },
   {"tag":  "Treasurer",
   "patterns":  ["Who is the treasurer?", "What position does Lety have?"],
-  "responses":  ["Lety is the treasurer."]
+  "responses":  ["Aaron is the treasurer."]
   },
   {"tag":  "FTC Software Lead",
   "patterns":  ["Who is the FTC software lead?", "What position does Vince have?"],
-  "responses":  ["Vince is the FTC software lead."]
+  "responses":  ["Rishi is the FTC software lead."]
   },
   {"tag":  "Safety Captain",
   "patterns":  ["Who is the safety captain?", "What position does Daniel have?"],
-  "responses":  ["Daniel is the safety captain."]
+  "responses":  ["Rishi is the safety captain."]
   },
   {"tag":  "FRC Mechanical Lead",
   "patterns":  ["Who is the FRC mechanical lead?", "What position does Ean have?"],
-  "responses":  ["Ean is the FRC mechanical lead."]
+  "responses":  ["Lamson is the FRC mechanical lead."]
   },
   {"tag":  "General Relations",
   "patterns":  ["Who is in charge of general relations?", "General relations", "What position does Theodore, Dy, or Ria have?"],
@@ -617,7 +617,7 @@
   },
   {"tag":  "Ok",
   "patterns":  ["ok", "okay", "mk", "mmmk", "yes", "yep"],
-  "responses":  ["ok"]
+  "responses":  ["ok", "sure", "no"]
   },
   {"tag":  "Equality!",
   "patterns":  ["Skin color", "race", "ethnicity"],
@@ -625,7 +625,7 @@
   },
   {"tag":  "Ok",
   "patterns":  ["ok", "okay", "mk", "mmmk"],
-  "responses":  ["ok"]
+  "responses":  ["ok", "goodbye", "you suck", "i am so smart"]
   },
   {"tag":  "Why",
   "patterns":  ["Why", "why should I", "Should I?"],
@@ -637,7 +637,7 @@
   },
   {"tag":  "answer",
   "patterns":  ["yes", "yup", "da"],	
-  "responses":  ["yes"]
+  "responses":  ["yes", "what????", "ask Jayden Sun", "ask Rishi", "ask Shawn", "ask Derrick", "ask Jessica"]
   },
   {"tag":  "no",
   "patterns":  ["no"],	
@@ -649,7 +649,7 @@
   },
   {"tag":  "Ping someone",
   "patterns":  ["ping someone", "ping"],	
-  "responses":  ["<@690006209532919889>", "<@586246554235437067>", "<@743891234493562960>", "<@641133678055129099>", "<@389295621598871584>"]
+  "responses":  ["<@690006209532919889>", "<@586246554235437067>", "<@777595035281653781>", "<@360609252697702401>", "<@641133678055129099>", "<@389295621598871584>"]
   },
   {"tag":  "Ping shawn",
   "patterns":  ["ping shawn"],	
@@ -668,7 +668,7 @@
   "responses":  ["in my free time i enjoy taking tiny nibbles out of Rishi's batman comic books (they have the best flavor)"]
   },
   {"tag":  "opinion on jayden",
-  "patterns":  ["jayden"],	
+  "patterns":  ["jayden", "jayden sun"],	
   "responses":  ["jayden is a very cool guy who is very good at FRC software and is cooler than shawn :D"]
   },  
   {"tag":  "ping jessica",
@@ -682,7 +682,7 @@
   {
   "tag":  "mrs nyguen",
   "patterns":  ["nyguen", "physics", "mrs nyguen", "teacher"],
-  "responses":  ["shawn hates mrs nyguen cause hes is shawn."]
+  "responses":  ["jayden hates mrs nyguen cause hes is jayden."]
   }
 ]}
  
